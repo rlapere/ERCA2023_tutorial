@@ -1,4 +1,4 @@
-name: base
+name: erca
 channels:
   - pyviz
   - anaconda
@@ -14,7 +14,6 @@ dependencies:
   - jupyterlab
   - jupyterlab_code_formatter
   - matplotlib=3.4.3
-  - mpmath=1.2.1
   - numpy=1.20.3
   - pandas=1.3.4
   - pyviz_comms=2.2.1
@@ -27,19 +26,11 @@ dependencies:
     - aiohttp==3.8.1
     - aioitertools==0.10.0
     - aiosignal==1.2.0
-    - asciitree==0.3.3
-    - async-timeout==4.0.2
-    - botocore==1.24.21
-    - cachetools==5.0.0
     - cdsapi==0.5.1
-    - colorcet==3.0.1
     - dask==2022.5.0
     - distributed==2022.5.0
     - dominate==2.7.0
     - eofs==1.4.0
-    - fasteners==0.17.3
-    - fastprogress==1.0.2
-    - frozenlist==1.3.0
     - fsspec==2022.3.0
     - gcsfs==2022.3.0
     - google-api-core==2.7.3
@@ -57,10 +48,7 @@ dependencies:
     - hvplot==0.8.2
     - intake-esm==2021.8.17
     - intake-xarray==0.6.0
-    - iris==1.0.7
-    - jmespath==1.0.0
     - kerchunk==0.0.6
-    - locket==1.0.0
     - miditime==1.1.3
     - motionless==1.3.3
     - multidict==6.0.2
@@ -74,22 +62,11 @@ dependencies:
     - packaging==22.0
     - panel==0.14.2
     - pangeo-forge-recipes==0.8.3
-    - param==1.12.3
-    - pbr==5.11.0
-    - plotly==5.10.0
-    - proplot==0.9.5
-    - protobuf==3.20.1
-    - pyasn1==0.4.8
-    - pyasn1-modules==0.2.8
-    - pybliometrics==3.4.0
-    - pyct==0.4.8
-    - pydantic==1.9.0
     - pyeof==0.0.0
     - pygame==2.1.2
     - pyhdf==0.10.5
     - pymannkendall==1.4.2
     - python-vlc==3.0.18121
-    - pytz-deprecation-shim==0.1.0.post0
     - pyviz-comms==2.2.1
     - xarray==2022.12.0
     - yarl==1.7.2
