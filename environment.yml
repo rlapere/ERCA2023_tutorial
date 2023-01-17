@@ -22,12 +22,7 @@ dependencies:
   - scipy=1.7.1
   - seaborn=0.11.2
   - pip:
-    - notebook=6.4.5
-    - pip=21.2.4
-    - python=3.9.7
-    - setuptools=58.0.4
-    - webencodings=0.5.1
-    - widgetsnbextension=3.5.1
+    - widgetsnbextension==3.5.1
     - aiobotocore==2.2.0
     - aiohttp==3.8.1
     - aioitertools==0.10.0
